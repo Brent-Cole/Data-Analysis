@@ -1,0 +1,20 @@
+The purpose of this program is to analyze large sets of data, and gain needed programming experience.  The motivation of this project is from a study that tries to predict height and weight.  It comes from the book Machine Learning for Hackers by Drew Conway & John Myles-While, O'Reilly Media. Throughout the process I will be refreshing my programming skills and documenting it within this readme.
+
+The first stage in this program is to open up a small text file of ht and wts that I just made up. I will print these just to the terminal.  This was completed with just a few lines of code.
+
+Second Stage: I was able to upload a data set of 25000 individual ht and wts and plot it using a scatter plot
+
+Third Stage: Perform simple linear regression on the data set; the formula for the line of regression is as follows:
+    y = mx+b  and it is assumed that x and y are center of mass points and m is slope of the line.
+
+Fourth Stage: Now that the graphs are plotted, how do we determine how strong the relationship is between ht and wt?
+    To start off we need to find the residuals, which is actual value - predicted value
+    To calculate the standard deviation the formula is as follows: sqrt((sum(x-meanx)^2)/n
+
+    The standard deviation ended up being 11.66 which is a measurement of how spread apart the data is from the average
+
+Fifth Stage:  I need to figure out the correlation coefficient (r value), it is a number between -1 and 1 and the closer to the ones is the stronger the relationship  
+The r value ended up being .502 which would indicate a moderate positive relationship
+
+
+The conclusion of the study, while the 25000 data points did show a moderate positive relationship, meaning given a height you could reasonable guess a weight. What could be done differently, first off I think the results are a little off in the fact this didn't take into account gender.  I think the relationship would have been more significant if the genders had been split.  Overall I think this project accomplished my initial goal of getting me comfortable using python. I started out thinking that I wouldn't use the packages and create my own tests to do the statistics but after playing around with it and doing that at the beginning I got pretty comfortable so I didn't feel it was necessary.
